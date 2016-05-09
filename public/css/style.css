@@ -1,0 +1,368 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  /*background: url(/public/images/bg-texture.jpg) no-repeat center center fixed;*/
+  background-color: #e6e6e6;
+}
+
+#card-header:hover {
+  background-color: grey;
+}
+
+#white-bg {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow-effect {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#collegelogo {
+  float: right;
+  height: 106px;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.footer-img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: white;
+}
+
+a.footer-button {
+  text-align: center;
+  color: lightblue;
+  background-color: white;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+#bottom-widget {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  background-color: #0275d8;
+  opacity: .9;
+  font-size: 1.2em;
+  text-align: justify;
+  color: lightblue;
+}
+
+.footer-title {
+  color: white;
+  font-size: 1.5em;
+}
+
+
+#main-content {
+  background: white;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  float: right;
+}
+
+.breadcrumb > .section {
+  color: lightblue;
+}
+
+.ui > a.section {
+  color: #008CBA;
+}
+
+#meaieeesblogo {
+  height: 106px;
+}
+
+#except-home {
+  /*padding-top: 3.35em;*/
+}
+
+#navmain{
+  opacity: .9;
+}
+
+#marquee {
+  background-color: #0275d8;
+  color: white;
+  opacity: .9;
+}
+
+#homepage {
+  background-image: url("/public/images/milenbig.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  color: white;
+}
+
+h1 {
+  font-family: 'Lato';
+}
+
+#navtopleft > li > a {
+  color: white;
+}
+
+#navtopright > li > a {
+  color: white;
+}
+
+#bgmain {
+  padding-top: 4em;
+}
+
+#content {
+  opacity: 1;
+}
+
+#meaieeelogo {
+  position: absolute;
+  top: -20;
+  left: 0;
+  right:0;
+  margin: auto;
+  opacity: 1;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.heading-main {
+  padding-top: 2em;
+  font-size: 3em;
+  font-weight: 300;
+  color: white;
+  text-shadow: 0px 0px 17px black;
+}
+
+#nav-main-transparent {
+  opacity: .8;
+}
+
+#card {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+#card:hover {
+  box-shadow: 12 4px 8px 12 white, 0 6px 20px 12 white;
+}
+
+#card-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.heading-sub {
+  color: white;
+  text-shadow: 0 0 4px black;
+  text-align: center;
+}
+
+.black-bg {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background: rgba(0, 0, 0, .5);
+}
+
+#card-red {
+  background-color: #cc3300;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+#card-red:hover {
+  background-color: grey;
+}
+
+#card-red > i {
+  font-size: 4em;
+}
+
+#card-blue {
+  background-color: #3366ff;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+#card-blue:hover {
+  background-color: grey;
+}
+
+#card-blue > i {
+  font-size: 4em;
+}
+
+#card-yellow {
+  background-color: #ffcc00;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+#card-yellow:hover {
+  background-color: grey;
+}
+
+#card-yellow > i {
+  font-size: 4em;
+}
+
+
+#card-header > i {
+  font-size: 4em;
+}
+
+#card-container {
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+
+.article-title {
+  color: #008CBA;
+  text-shadow: 0 0 3px lightblue;
+}
+
+marquee {
+  font-size: 1em;
+  padding-top: .4em;
+  padding-bottom: .4em;
+}
+
+#chapter-slider {
+  background-color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.button-footer {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    float: right;
+    width: 100%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    width: 100%;
+}
+
+.button-blue:hover {
+  background-color: lightgreen;
+}
+
+.button-blue {
+  background-color: #008CBA;
+}
+
+.button-green {
+  background-color: #4CAF50;
+}
+
+.button-green:hover {
+  background-color: #00ccff;
+}
+
+.button-blue-2 {
+  background-color: #0275d8;
+  opacity: .9;
+}
+
+.button-blue-2:hover {
+  background-color: #4CAF50;
+}
+
+.button-blue:hover {
+  background-color: #4CAF50;
+}
+
+.dropdown-menu > a {
+  color: white;
+}
+
+.dropdown-menu > a:hover {
+  background-color: #0275d8;
+  color: yellow;
+}
+
+.dropdown:hover .dropdown-menu {
+  background-color: #0275d8;
+  color: white;
+  display: block;
+}
+
+#navtopright > .nav-item > .nav-link:hover {
+  color: yellow;
+}
+
+p.article-content {
+  font-size: 1.2em;
+  color: grey;
+  text-align: justify;
+}
+
+.fa-envelope-o, .fa-facebook-square, .fa-twitter-square, .fa-google-plus-square {
+    color: lightblue;
+    width: 100%;
+    font-size: 3em;
+}
+
+#header {
+  background-color: #17376e;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
