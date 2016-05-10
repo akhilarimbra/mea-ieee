@@ -4,8 +4,14 @@
   } else {
     $nav_id = 'navmain';
   }
+  if (isset($gallery)) {
+    $nav_class = 'navbar-static-top';
+  } else {
+    $nav_class = 'navbar-fixed-top';
+  }
+  //just do some logic to disable sticky top navigation bar only on the gallery page machi !!! ;-)
 ?>
-<nav class="navbar navbar-fixed-top navbar-dark bg-primary" id=<?php echo $nav_id; ?>>
+<nav class="navbar <?php echo $nav_class ;?> navbar-dark bg-primary" id=<?php echo $nav_id; ?>>
   <ul class="nav navbar-nav" id='navtopleft'>
     <li class="nav-item">
       <a class="nav-link"><i class="fa fa-phone"></i> +91 8129609230</a>
@@ -42,7 +48,7 @@
         </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/membership-join">Membership / Join</a>
+      <a class="nav-link" href="/membership-and-benefits">Membership & Benefits</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="/execom">Executive Committee</a>

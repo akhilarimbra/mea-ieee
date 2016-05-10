@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include 'view/partials/head.php';
-      $gallery = 'gallery';
-    ?>
+    <?php include 'view/partials/head.php'; ?>
   </head>
-  <style>
-    #header {
-      padding-top: 1em;
-    }
-  </style>
   <body>
     <?php include 'view/partials/nav.php'; ?>
     <div class="container-fluid" id='except-home'>
@@ -22,7 +15,7 @@
             <div class="row">
               <div class="col-lg-9">
                 <div id='main-content'>
-                  <?php include 'view/pages/gallery.php'; ?>
+                  <?php include 'view/pages/contact.php'; ?>
                   <?php include 'view/partials/latest_events.php'; ?>
                   <?php include 'view/partials/social.php'; ?>
                 </div>

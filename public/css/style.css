@@ -5,6 +5,10 @@ body {
   background-color: #e6e6e6;
 }
 
+#blueimp-gallery-dialog {
+  padding-top: 1em;
+}
+
 #card-header:hover {
   background-color: grey;
 }

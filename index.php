@@ -18,60 +18,41 @@
   #custom routing
   switch ($url[1]) {
     case 'about':
-      if ($url[2] != NULL) {
-        $include = route_about($url[2]);
-        switch ($url[2]) {
-          case 'sb':
-            $sub_title = 'About MEA IEEE Student Branch | ';
-            break;
-          case 'ieee':
-            $sub_title = 'About IEEE | ';
-            break;
-          case 'region10':
-            $sub_title = 'About Region 10 | ';
-            break;
-          case 'mea':
-            $sub_title = 'About MEA Engineering College | ';
-            break;
-          default:
-            $sub_title = '404 Error | Not Found | ';
-            break;
-        }
-        #echo 'about sub page';
-      } else {
-        header("Location: /about/sb");
-        //$sub_title = "About MEA IEEE Student Branch | ";
-        //$include = 'about-sb.php';
-        #echo 'about main page';
-      }
+      include 'controller/about.php';
       break;
-    case 'membership-join':
-      $include = 'membership-join.php';
-      $sub_title = 'Take Membership and Join IEEE | ';
+    case 'membership-and-benefits':
+      include 'controller/membership-and-benefits.php';
       break;
     case 'execom':
-      $include = 'execom.php';
-      $sub_title = 'Executive Committee | ';
+      include 'controller/execom.php';
       break;
     case 'gallery':
-      $include = 'gallery.php';
-      $sub_title = 'Gallery | ';
+      include 'controller/gallery.php';
       break;
     case 'events':
-      $include = 'events.php';
-      $sub_title = 'Events | ';
+      include 'controller/events.php';
+      break;
+    case 'contact':
+      include 'controller/contact.php';
       break;
     case 'sitemap':
-      $sub_title = 'Sitemap | ';
-      $include = 'sitemap.php';
+      include 'controller/sitemap.php';
       break;
     default:
-      $include = 'home.php';
-      $home = 'home';
+      if (strlen($url[1]) > 0) {
+        //echo '404 Error';
+        $include = '404.php';
+        $sub_title = '404 Error | Page Not Found | ';
+      } else {
+        //echo 'home';
+        $home = 'home';
+        $include = 'home.php';
+        $title = "IEEE Student Branch | MEA Engineering College, Perinthalmanna";
+      }
       break;
   }
   if ($sub_title === "") {
-    $title = "MEA IEEE Student Branch - MEA Engineering College";
+    $title = "IEEE Student Branch | MEA Engineering College, Perinthalmanna";
   } else {
     $title = $sub_title.$title;
   }

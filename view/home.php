@@ -9,7 +9,7 @@
       <div class="row" id='bgmain'>
         <div class="col-lg-12">
           <img src="/public/images/meaieeesb.png" alt="MEA IEEE Student Branch Logo" id='meaieeelogo' />
-          <h1 class="align-center heading-main">WELCOME TO MEA IEEE STUDENT BRANCH CHAPTER</h1>
+          <h1 class="align-center heading-main">WELCOME TO MEA IEEE STUDENT BRANCH, REGION 10</h1>
           <div class="row" id='sub-content'>
             <div class="row">
               <div class="col-lg-6">

@@ -43,13 +43,13 @@
     <div class="col-lg-12">
       <h3 class="article-title">IEEE Asia Pacific Operations Centre</h3>
       <p class="article-content">
-        The <b style='color:black;'>IEEE Asia Pacific Operations Centre (IEEE APO)</b> is an extension of the Member & Geographic Activities Department (formally known as Regional Activities Department) within the IEEE organization structure, and provides a valuable link between the IEEE headquarters in Piscataway and the Asia Pacific volunteers. Located in Singapore, we aim to keep the Asia Pacific region the most vibrant and active of the 10 geographical regions in the IEEE, by keeping the volunteers informed and their activities coordinated.
+        The <b style='color:black;'>IEEE Asia Pacific Operations Centre (IEEE APO)</b> is an extension of the Member & Geographic Activities Department (formally known as Regional Activities Department) within the IEEE organization structure, and provides a valuable link between the IEEE headquarters in Piscataway and the Asia Pacific volunteers. Located in Singapore, they aim to keep the Asia Pacific region the most vibrant and active of the 10 geographical regions in the IEEE, by keeping the volunteers informed and their activities coordinated.
         <br>
         <br>
-        We serve as an information centre for members, customers and volunteers, bridging the 12 hour time difference between the headquarters in Piscataway, New Jersey on the East Coast of the United States and the Asia Pacific.
+        They serve as an information centre for members, customers and volunteers, bridging the 12 hour time difference between the headquarters in Piscataway, New Jersey on the East Coast of the United States and the Asia Pacific.
         <br>
         <br>
-        We are also the Communications Society (ComSoc) office for the Asia Pacific, and provide support to the ComSoc Asia Pacific Board and its committees in carrying out its activities.
+        They are also the Communications Society (ComSoc) office for the Asia Pacific, and provide support to the ComSoc Asia Pacific Board and its committees in carrying out its activities.
       </p>
       <h4><a href='http://www.ewh.ieee.org/ieee/apo/Home/staff.html' target='_blank'>IEEE APO Office :</a></h4>
       <p class="article-content">
@@ -59,7 +59,7 @@
         In 1995, the IEEE Communications Society (ComSoc) engaged the office to provide extra support services to its members in the Asia Pacific region. Shortly with the re-organization of the Communications Society, the office was included into the Charter of the ComSoc Asia Pacific Board (APB) and its role expanded to provide support services to its’ Director and its’ committee activities.
         <br>
         <br>
-        With the technological advances in web applications in recent years, members, customers and volunteers are now empowered to purchase IEEE products and services, subscribe and access to their membership data and subscriptions online, find information and network with their peers. We continue to serve as the coordinating and information centre for the Asia Pacific.
+        With the technological advances in web applications in recent years, members, customers and volunteers are now empowered to purchase IEEE products and services, subscribe and access to their membership data and subscriptions online, find information and network with their peers. They continue to serve as the coordinating and information centre for the Asia Pacific.
       </p>
       <div style="width:2000px;max-width:100%;overflow:hidden;height:500px;color:red;"><div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=IEEE+Asia+Pacific+Operations+Centre+Singapore&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-maps-code" href="https://www.interserver-coupons.com" id="auth-map-data">InterserverCoupons</a><style>#embedded-map-display .map-generator{max-width: 100%; max-height: 100%; background: none;</style></div><script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=51ccc2c2-7514-b028-0fca-1ad91dffd690&c=google-maps-code&u=1457276647" defer="defer" async="async"></script>
     </div>

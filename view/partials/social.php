@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-lg-12">
       <hr>
-      <h3>Share this on your favorite social network : </h3>
+      <h3>Share this : </h3>
       <div id="share-buttons">
 
           <!-- Buffer -->

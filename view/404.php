@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include 'view/partials/head.php'; ?>
+    <?php include 'view/partials/head.php';
+      $gallery = 'gallery';
+    ?>
   </head>
+  <style>
+    #header {
+      padding-top: 1em;
+    }
+  </style>
   <body>
     <?php include 'view/partials/nav.php'; ?>
     <div class="container-fluid" id='except-home'>
@@ -15,7 +22,24 @@
             <div class="row">
               <div class="col-lg-9">
                 <div id='main-content'>
-                  <?php include 'view/pages/404.php'; ?>
+                  <div class="container-fluid">
+                    <br>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h2 class="article-title" style="color: darkred;">404 Error - Page Not Found</h2>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="ui breadcrumb">
+                            <a class="section" href="/">Home</a>
+                            <div class="divider"> / </div>
+                            <div class="active section">404 Error - Page Not Found</div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <img src="/public/images/404-error.jpg" class='shadow-effect' width='100%' alt="404 Error NOt FouNd" />
+                  </div>
+                  <?php include 'view/partials/latest_events.php'; ?>
                   <?php include 'view/partials/social.php'; ?>
                 </div>
               </div>

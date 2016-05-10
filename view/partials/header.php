@@ -6,7 +6,7 @@
   </div>
   <div class="col-lg-6">
     <a href="/">
-      <img src="/public/images/meaieeesb.png" alt="MEA College Logo" id='collegelogo' />
+      <img src="/public/images/mea.png" alt="MEA College Logo" id='collegelogo' />
     </a>
   </div>
 </div>
