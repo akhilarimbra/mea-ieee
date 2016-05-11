@@ -1,6 +1,7 @@
 <?php
   #remove the directory path we don't want
   include 'include/functions.php';
+  include 'include/db_connect.php';
   $request = str_replace("/", "", $_SERVER['REQUEST_URI']);
   //echo $request;
   //echo $_SERVER['REQUEST_URI'];
@@ -29,7 +30,7 @@
     case 'gallery':
       include 'controller/gallery.php';
       break;
-    case 'events':
+    case 'events-and-activities':
       include 'controller/events.php';
       break;
     case 'contact':
@@ -37,6 +38,12 @@
       break;
     case 'sitemap':
       include 'controller/sitemap.php';
+      break;
+    case 'dashboard':
+      include 'controller/dashboard.php';
+      break;
+    case 'login':
+      include 'controller/login.php';
       break;
     default:
       if (strlen($url[1]) > 0) {

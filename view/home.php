@@ -57,58 +57,14 @@
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-md-8 black-bg">
-                      <h1 class="heading-sub">LATEST EVENTS</h1>
+                      <h1 class="heading-sub">ABOUT OUR SB</h1>
                       <div class="container-fluid">
                         <div class="row">
                           <div class="col-sm-12">
-                            <div class="ui icon message">
-                              <i class="fa fa-user" style="font-size: 5em; padding-right: .5em;"></i>
-                              <div class="content">
-                                <div class="header">
-                                  Have you heard about our mailing list?
-                                </div>
-                                <p>Get the best news in your e-mail every day.</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <div class="ui icon message">
-                              <i class="fa fa-user" style="font-size: 5em; padding-right: .5em;"></i>
-                              <div class="content">
-                                <div class="header">
-                                  Have you heard about our mailing list?
-                                </div>
-                                <p>Get the best news in your e-mail every day.</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <div class="ui icon message">
-                              <i class="fa fa-user" style="font-size: 5em; padding-right: .5em;"></i>
-                              <div class="content">
-                                <div class="header">
-                                  Have you heard about our mailing list?
-                                </div>
-                                <p>Get the best news in your e-mail every day.</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <div class="ui icon message">
-                              <i class="fa fa-user" style="font-size: 5em; padding-right: .5em;"></i>
-                              <div class="content">
-                                <div class="header">
-                                  Have you heard about our mailing list?
-                                </div>
-                                <p>Get the best news in your e-mail every day.</p>
-                              </div>
-                            </div>
+                            <p style="font-size: 1.2em;color: white; text-align: justify;">
+                              <img src="/public/images/mea.png" alt="MEA IEEE SB Logo" width="30%" style="padding-right: .3em;float: left;" />
+                              The formalities for setting up the IEEE student branch started With Mr. Mobi Mathew as the interim chairperson and Asst. Prof. Haneesh Babu (The HOD, EEE Department) as the counselor, The petition was sent on 28 February 2011 to the IEEE KERALA SECTION. The approval of MEA ENGINEERING COLLEGE PERINTHALMANNA SB was received on 7 April 2011. Since then the activities of the student branch is going in a new trend. The first student branch meeting of MEA student branch took place on 10 March 2011. The formal inauguration of our student branch was done by Dr. PREMLET (Associate Professor in Physics, TKMCE, Kollam) on 25 August 2011. It was the day the dream of all IEEE members came true.
+                            </p>
                           </div>
                         </div>
                       </div>

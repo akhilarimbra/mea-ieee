@@ -37,7 +37,7 @@
                         </div>
                       </div>
                       <br>
-                      <img src="/public/images/404-error.jpg" class='shadow-effect' width='100%' alt="404 Error NOt FouNd" />
+                      <img src="/public/images/404-error.jpg" width='100%' alt="404 Error NOt FouNd" />
                   </div>
                   <?php include 'view/partials/latest_events.php'; ?>
                   <?php include 'view/partials/social.php'; ?>

@@ -7,7 +7,7 @@
   </head>
   <style>
     #header {
-      padding-top: 1em;
+      padding-top: .7em;
     }
   </style>
   <body>

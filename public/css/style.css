@@ -5,6 +5,35 @@ body {
   background-color: #e6e6e6;
 }
 
+/* navbar collapse */
+
+.navbar-brand {
+  float: none;
+}
+.navbar-nav .nav-item {
+  float: none;
+}
+.navbar-divider,
+.navbar-nav .nav-item+.nav-item,
+.navbar-nav .nav-link + .nav-link {
+  margin-left: 0;
+}
+@media (min-width: 34em) {
+  .navbar-brand {
+    float: left;
+  }
+  .navbar-nav .nav-item {
+    float: left;
+  }
+  .navbar-divider,
+  .navbar-nav .nav-item + .nav-item,
+  .navbar-nav .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+}
+
+/* navbar collapse end */
+
 #blueimp-gallery-dialog {
   padding-top: 1em;
 }
@@ -104,17 +133,12 @@ a.footer-button {
 }
 
 #homepage {
-  background-image: url("/public/images/milenbig.jpg");
-  background-color: #cccccc;
+  background: url("/public/images/milenbig.jpg") no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
   opacity: 1;
-  -moz-box-shadow: 10px 10px 5px #ccc;
-  -webkit-box-shadow: 10px 10px 5px #ccc;
-  box-shadow: 10px 10px 5px #ccc;
-  -moz-border-radius:25px;
-  -webkit-border-radius:25px;
-  border-radius:25px;
   color: white;
 }
 
@@ -132,6 +156,7 @@ h1 {
 
 #bgmain {
   padding-top: 4em;
+  padding-bottom: 10em;
 }
 
 #content {
@@ -189,7 +214,7 @@ h1 {
 .black-bg {
   padding-top: 1em;
   padding-bottom: 3em;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .7);
 }
 
 #card-red {
