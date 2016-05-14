@@ -57,13 +57,8 @@
       <li class="nav-item">
         <a class="nav-link" href="/execom">Executive Committee</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/events" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events & Activities</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+      <li class="nav-item">
+        <a class="nav-link" href="/events-and-activities">Events & Activities</a>
       </li>
       <li class="nav-item">
         <a href="/gallery" class="nav-link">Gallery</a>

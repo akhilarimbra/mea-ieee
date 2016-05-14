@@ -17,7 +17,7 @@
                 <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
             </a>
             <ul class="dropdown-menu dropdown-user">
-                <li><a href="/logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                <li><a href="/dashboard/logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -39,7 +39,9 @@
                     <a href="/dashboard/add-event"><i class="fa fa-calendar fa-fw"></i> Add Event</a>
                 </li>
                 <li>
-                    <a href="/dashboard/gallery"><i class="fa fa-picture-o fa-fw"></i> Gallery</a>
+                    <a href="/dashboard/add-notification">
+                      <i class="fa fa-bell-o fa-fw"></i> Add Notification
+                    </a>
                 </li>
                 <li>
                     <a href="/dashboard/images"><i class="fa fa-picture-o fa-fw"></i> Images</a>

@@ -33,7 +33,23 @@
             <span class="date">EEE Department (Assistant Prof.)</span>
           </div>
           <div class="description">
-            Advisor
+            Councellor
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="ui card">
+        <div class="image">
+          <img src="/public/images/execom/shafeeq.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Shafeeque</a>
+          <div class="meta">
+            <span class="date">EEE Department (Assistant Prof.)</span>
+          </div>
+          <div class="description">
+            Assitant Councellor
           </div>
         </div>
       </div>
@@ -70,18 +86,69 @@
         </div>
       </div>
     </div>
+  </div>
+  <br>
+  <div class="row">
     <div class="col-md-3">
       <div class="ui card">
         <div class="image">
-          <img src="/public/images/execom/webmaster.jpg">
+          <img src="/public/images/execom/vice.jpg">
         </div>
         <div class="content">
-          <a class="header">Hisam</a>
+          <a class="header">Hisam T</a>
           <div class="meta">
             <span class="date">EC Department</span>
           </div>
           <div class="description">
             Vice Chair
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="ui card">
+        <div class="image">
+          <img src="/public/images/execom/suhaj.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Suhaj M.K</a>
+          <div class="meta">
+            <span class="date">CS Department</span>
+          </div>
+          <div class="description">
+            Treasurer
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="ui card">
+        <div class="image">
+          <img src="/public/images/execom/jiyad.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Jiyad</a>
+          <div class="meta">
+            <span class="date">CS Department</span>
+          </div>
+          <div class="description">
+            Joint Secretary
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="ui card">
+        <div class="image">
+          <img src="/public/images/execom/manju.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Manju Manoj Varier</a>
+          <div class="meta">
+            <span class="date">CS Department</span>
+          </div>
+          <div class="description">
+            Communication Co-ordinator
           </div>
         </div>
       </div>
@@ -92,47 +159,15 @@
     <div class="col-md-3">
       <div class="ui card">
         <div class="image">
-          <img src="/public/images/execom/advisor.jpg">
+          <img src="/public/images/execom/shareef.jpg">
         </div>
         <div class="content">
-          <a class="header">Ajmal K.T</a>
+          <a class="header">Shareef</a>
           <div class="meta">
-            <span class="date">EEE Department (Assistant Prof.)</span>
+            <span class="date">CS Department</span>
           </div>
           <div class="description">
-            Advisor
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="ui card">
-        <div class="image">
-          <img src="/public/images/execom/past-chair.jpg">
-        </div>
-        <div class="content">
-          <a class="header">Fawad Rasheed</a>
-          <div class="meta">
-            <span class="date">CSE Department</span>
-          </div>
-          <div class="description">
-            Past Chair
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="ui card">
-        <div class="image">
-          <img src="/public/images/execom/ias-chair.jpg">
-        </div>
-        <div class="content">
-          <a class="header">Suhail Palekkodan</a>
-          <div class="meta">
-            <span class="date">CSE Department</span>
-          </div>
-          <div class="description">
-            IAS Chapter Chair
+            Point of Contact
           </div>
         </div>
       </div>
@@ -143,12 +178,28 @@
           <img src="/public/images/execom/webmaster.jpg">
         </div>
         <div class="content">
-          <a class="header">Akhil Raj</a>
+          <a class="header">Jiyad</a>
           <div class="meta">
-            <span class="date">CSE Department</span>
+            <span class="date">CS Department</span>
           </div>
           <div class="description">
             Webmaster
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="ui card">
+        <div class="image">
+          <img src="/public/images/execom/bincy.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Bincy</a>
+          <div class="meta">
+            <span class="date">CS Department</span>
+          </div>
+          <div class="description">
+            WIE Secretary
           </div>
         </div>
       </div>

@@ -18,4 +18,22 @@
         break;
     }
   }
+  function lock() {
+    session_start();
+    if(!isset($_SESSION['status'])) {
+      header("location: /dashboard/login");
+    }
+  }
+  function logout() {
+    session_start();
+    if(session_destroy()) { //Destroying all sessions
+      header("Location: /dashboard/login"); // Redirecting To Home Page
+    }
+  }
+  function is_login() {
+    session_start();
+    if(isset($_SESSION['status'])) {
+      header("location: /dashboard");
+    }
+  }
 ?>

@@ -41,6 +41,7 @@
         <h3><i class="fa fa-info-circle" style='color: #008CBA;'></i> IEEE SBC, STB : 08091</h3>
         <h3><i class="fa fa-location-arrow" style='color: #008CBA;'></i> Kerala Sub-Section</h3>
         <h3><i class="fa fa-globe" style='color: #008CBA;'></i> Region 10, India</h3>
+        <h3><i class="fa fa-phone" style='color: #008CBA;'></i> +91 8129609230</h3>
         <h3>
           <a href="mailto:meaieeestudentbranch@gmail.com">
             <i class="fa fa-envelope" style='color: #008CBA;'></i> meaieeestudentbranch@gmail.com
