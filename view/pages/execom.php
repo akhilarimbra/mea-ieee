@@ -5,7 +5,7 @@
       <h2 class="article-title"><?php echo substr($sub_title, 0 , -2); ?></h2>
     </div>
     <div class="col-md-6">
-      <div class="ui breadcrumb">
+      <div class="ui breadcrumb hidden-sm-down">
         <a class="section" href="/">Home</a>
         <div class="divider"> / </div>
         <div class="active section">Executive Committee</div>
@@ -113,7 +113,7 @@
         <div class="content">
           <a class="header">Suhaj M.K</a>
           <div class="meta">
-            <span class="date">CS Department</span>
+            <span class="date">CSE Department</span>
           </div>
           <div class="description">
             Treasurer
@@ -129,7 +129,7 @@
         <div class="content">
           <a class="header">Jiyad</a>
           <div class="meta">
-            <span class="date">CS Department</span>
+            <span class="date">CSE Department</span>
           </div>
           <div class="description">
             Joint Secretary
@@ -145,7 +145,7 @@
         <div class="content">
           <a class="header">Manju Manoj Varier</a>
           <div class="meta">
-            <span class="date">CS Department</span>
+            <span class="date">CSE Department</span>
           </div>
           <div class="description">
             Communication Co-ordinator
@@ -164,7 +164,7 @@
         <div class="content">
           <a class="header">Shareef</a>
           <div class="meta">
-            <span class="date">CS Department</span>
+            <span class="date">CSE Department</span>
           </div>
           <div class="description">
             Point of Contact
@@ -178,9 +178,9 @@
           <img src="/public/images/execom/webmaster.jpg">
         </div>
         <div class="content">
-          <a class="header">Jiyad</a>
+          <a class="header">Akhil Raj</a>
           <div class="meta">
-            <span class="date">CS Department</span>
+            <span class="date">CSE Department</span>
           </div>
           <div class="description">
             Webmaster
@@ -196,7 +196,7 @@
         <div class="content">
           <a class="header">Bincy</a>
           <div class="meta">
-            <span class="date">CS Department</span>
+            <span class="date">CSE Department</span>
           </div>
           <div class="description">
             WIE Secretary

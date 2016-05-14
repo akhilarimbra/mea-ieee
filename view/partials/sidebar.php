@@ -1,5 +1,5 @@
 <br>
-<div class="container-fluid sidebar">
+<div class="container-fluid sidebar hidden-sm-down">
   <div class="row">
     <div class="col-sm-12">
       <a class="twitter-timeline" href="https://twitter.com/IEEEorg" data-widget-id="729924778400751616">Tweets by @IEEEorg</a>

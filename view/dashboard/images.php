@@ -27,22 +27,21 @@
                   </tr>
                 </thead>
                 <tbody>
-                    <tr>
                         <?php  
                           $sql = "SELECT * FROM `image` ORDER BY title";
                           $result = $conn->query($sql);
                           if ($result->num_rows > 0) {
                               while($row = $result->fetch_assoc()) {
+                                echo "<tr>";
                                 echo "<td>".$row['name']."</td>";
                                 echo "<td>".$row['title']."</td>";
                                 echo "<td>".$row['type']."</td>";
                                 echo "<td><a target='_blank' href='/public/images/uploads/".$row['name']."'>View</a></td>";
-                                echo "<td><a href='/dashboard/image-delete/".$row['name']."'>Delete</a></td>";
+                                echo "<td><a href='/dashboard/image-delete/".$row['name']."'>Delete</a></td></tr>";
                               }
                           }
                           $conn->close();
                         ?>
-                    </tr>
                 </tbody>
             </table>
             </div>

@@ -5,7 +5,7 @@
       <h2 class="article-title"><?php echo substr($sub_title, 0 , -2); ?></h2>
     </div>
     <div class="col-md-6">
-      <div class="ui breadcrumb">
+      <div class="ui breadcrumb hidden-sm-down">
         <a class="section" href="/">Home</a>
         <div class="divider"> / </div>
         <a class="section" href="/about">About</a>

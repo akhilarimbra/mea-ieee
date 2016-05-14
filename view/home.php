@@ -7,12 +7,17 @@
     <?php include 'view/partials/nav.php'; ?>
     <div class="container-fluid" id='content'>
       <div class="row" id='bgmain'>
-        <div class="col-lg-12">
-          <img src="/public/images/meaieeesb.png" alt="MEA IEEE Student Branch Logo" id='meaieeelogo' />
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <img class="hidden-sm-down" src="/public/images/meaieeesb.png" alt="MEA IEEE Student Branch Logo" id='meaieeelogo'/>
+          <div class="row hidden-sm-up">
+            <div class="col-sm-12" style="top:3em;">
+              <img src="/public/images/meaieeesb.png" width="100%">
+            </div>
+          </div>
           <h1 class="align-center heading-main">WELCOME TO MEA IEEE STUDENT BRANCH, REGION 10</h1>
           <div class="row" id='sub-content'>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-md-6">
@@ -22,6 +27,7 @@
                           <h1>120 + MEMBERSHIPS</h1>
                         </div>
                       </div>
+                      <br>
                     </div>
                     <div class="col-md-6">
                       <div id="card">
@@ -31,8 +37,8 @@
                         </div>
                       </div>
                     </div>
+                    <br>
                   </div>
-                  <br>
                   <div class="row">
                     <div class="col-md-6">
                       <div id="card">
@@ -41,6 +47,7 @@
                           <h1>17 + AWARDS</h1>
                         </div>
                       </div>
+                      <br>
                     </div>
                     <div class="col-md-6">
                       <div id="card">
@@ -49,11 +56,12 @@
                           <h1>7 + SOCIETIES</h1>
                         </div>
                       </div>
+                      <br>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-md-8 black-bg">

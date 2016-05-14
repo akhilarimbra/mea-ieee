@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row hidden-sm-down">
   <a href="http://www.ieee.org/membership_services/membership/join/index.html" target="_blank">
     <button class="button-footer button-green">
       <b>
@@ -7,7 +7,7 @@
     </button>
   </a>
 </div>
-<div class="row" id='bottom-widget'>
+<div class="row hidden-sm-down" id='bottom-widget'>
   <div class="container-fluid">
     <div class="col-lg-3 col-md-3">
       <h3 class="footer-title">Find Us</h3>
@@ -62,6 +62,6 @@
     </div>
   </div>
 </div>
-<div class="row">
+<div class="row hidden-sm-down">
   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:2000px;'><div id='gmap_canvas' style='height:300px;width:2000px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://buywebtrafficexperts.com">buy website traffic</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(11.0392243,76.2636546),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(11.0392243,76.2636546)});infowindow = new google.maps.InfoWindow({content:'<strong>Location</strong><br>MEA Engineering College, Perinthalmanna<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </div>

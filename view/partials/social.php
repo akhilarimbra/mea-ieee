@@ -1,7 +1,7 @@
 <?php
   $current_url ="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 ?>
-<div class="container-fluid">
+<div class="container-fluid hidden-sm-down">
   <div class="row">
     <div class="col-lg-12">
       <hr>

@@ -15,7 +15,7 @@
       </a>
     </li>
   </ul>
-  <ul class="nav navbar-nav pull-xs-right" id='navtopright'>
+  <ul class="hidden-sm-down nav navbar-nav pull-xs-right" id='navtopright'>
     <li class="nav-item"><a class="nav-link" href='/sitemap'>Sitemap</a></li>
     <li class="nav-item"><a class="nav-link" href='http://www.ieee.org/' target="_blank">IEEE.org</a></li>
     <li class="nav-item"><a class="nav-link" href='http://ieeexplore.ieee.org/' target="_blank">IEEE Xplore Digital Library</a></li>

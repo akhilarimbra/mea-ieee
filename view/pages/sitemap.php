@@ -5,7 +5,7 @@
       <h2 class="article-title"><?php echo substr($sub_title, 0 , -2); ?></h2>
     </div>
     <div class="col-md-6">
-      <div class="ui breadcrumb">
+      <div class="ui breadcrumb hidden-sm-down">
         <a class="section" href="/">Home</a>
         <div class="divider"> / </div>
         <div class="active section">Sitemap</div>
@@ -19,70 +19,91 @@
         <div class="item">
           <i class="folder icon"></i>
           <div class="content">
-            <div class="header">src</div>
-            <div class="description">Source files for project</div>
+            <div class="header">Home</div>
+            <div class="description">Home Page</div>
             <div class="list">
               <div class="item">
                 <i class="folder icon"></i>
                 <div class="content">
-                  <div class="header">site</div>
-                  <div class="description">Your site's theme</div>
-                </div>
-              </div>
-              <div class="item">
-                <i class="folder icon"></i>
-                <div class="content">
-                  <div class="header">themes</div>
-                  <div class="description">Packaged theme files</div>
+                  <div class="header">About</div>
+                  <div class="description">Information about our student branch and IEEE</div>
                   <div class="list">
                     <div class="item">
                       <i class="folder icon"></i>
                       <div class="content">
-                        <div class="header">default</div>
-                        <div class="description">Default packaged theme</div>
+                        <div class="header">IEEE</div>
+                        <div class="description">About IEEE</div>
                       </div>
                     </div>
                     <div class="item">
                       <i class="folder icon"></i>
                       <div class="content">
-                        <div class="header">my_theme</div>
-                        <div class="description">Packaged themes are also available in this folder</div>
+                        <div class="header">Region 10</div>
+                        <div class="description">About Region 10</div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <i class="folder icon"></i>
+                      <div class="content">
+                        <div class="header">MEA Engineering College</div>
+                        <div class="description">About MEA Engineering College, Perinthalmanna</div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <i class="folder icon"></i>
+                      <div class="content">
+                        <div class="header">Student Branch</div>
+                        <div class="description">About the IEEE Student Branch of MEA Engineering College</div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <i class="file icon"></i>
+                <i class="folder icon"></i>
                 <div class="content">
-                  <div class="header">theme.config</div>
-                  <div class="description">Config file for setting packaged themes</div>
+                  <div class="header">Membership and Benefits</div>
+                  <div class="description">Detailed explaination about what one will get from joining IEEE</div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <i class="folder icon"></i>
-          <div class="content">
-            <div class="header">dist</div>
-            <div class="description">Compiled CSS and JS files</div>
-            <div class="list">
               <div class="item">
                 <i class="folder icon"></i>
                 <div class="content">
-                  <div class="header">components</div>
-                  <div class="description">Individual component CSS and JS</div>
+                  <div class="header">Executive Committee</div>
+                  <div class="description">Meet the team which powers our IEEE SB</div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="folder icon"></i>
+                <div class="content">
+                  <div class="header">Events and Activities</div>
+                  <div class="description">Showcase of what we have done till date</div>
+                  <div class="list">
+                    <div class="item">
+                      <i class="folder icon"></i>
+                      <div class="content">
+                        <div class="header">Single Event/Activity</div>
+                        <div class="description">Detail about a particular event or activity</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="folder icon"></i>
+                <div class="content">
+                  <div class="header">Gallery</div>
+                  <div class="description">Portfolio Page</div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="file icon"></i>
+                <div class="content">
+                  <div class="header">Contact</div>
+                  <div class="description">This page will help you to connect with us directly or indirectly</div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="item">
-          <i class="file icon"></i>
-          <div class="content">
-            <div class="header">semantic.json</div>
-            <div class="description">Contains build settings for gulp</div>
           </div>
         </div>
       </div>

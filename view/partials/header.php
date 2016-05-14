@@ -1,12 +1,8 @@
 <div class="row" id='header'>
-  <div class="col-lg-6">
-    <a href="/">
-      <img src="/public/images/meaieeesb.png" alt="MEA IEEE SB Logo" id='meaieeesblogo' />
-    </a>
-  </div>
-  <div class="col-lg-6">
-    <a href="/">
+      <img src="/public/images/meaieeesb.png" class="col-lg-4 col-md-4 col-sm-12 col-xs-12" alt="MEA IEEE SB Logo" />
+  <div class="col-lg-9 col-md-9 col-sm-12 hidden-sm-down">
+    <!--a href="/">
       <img src="/public/images/mea.png" alt="MEA College Logo" id='collegelogo' />
-    </a>
+    </a-->
   </div>
 </div>

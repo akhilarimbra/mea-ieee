@@ -29,7 +29,7 @@
                           <h2 class="article-title" style="color: darkred;">404 Error - Page Not Found</h2>
                         </div>
                         <div class="col-md-6">
-                          <div class="ui breadcrumb">
+                          <div class="ui breadcrumb hidden-sm-down">
                             <a class="section" href="/">Home</a>
                             <div class="divider"> / </div>
                             <div class="active section">404 Error - Page Not Found</div>

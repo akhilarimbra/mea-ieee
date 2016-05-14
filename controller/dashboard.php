@@ -28,6 +28,7 @@
 				} else {
 				    header("location: /dashboard/login/");
 				}
+				$conn->close();
 				break;
 			case 'logout':
 				logout();
@@ -44,6 +45,7 @@
 				}
 				$include = 'dashboard/events.php';
 				$sub_title = 'View All Events | ';
+				$conn->close();
 				break;
 			case 'image-delete':
 				lock();
@@ -58,6 +60,7 @@
 				}
 				$include = 'dashboard/images.php';
 				$sub_title = 'Images | ';
+				$conn->close();
 				break;
 			case 'add-new-event':
 				lock();

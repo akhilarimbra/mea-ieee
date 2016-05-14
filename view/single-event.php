@@ -15,7 +15,8 @@
             <div class="row">
               <div class="col-lg-9">
                 <div id='main-content'>
-                  <?php include 'view/pages/events.php'; ?>
+                  <?php include 'view/pages/event.php'; ?>
+                  <?php include 'view/partials/latest_events.php'; ?>
                   <?php include 'view/partials/social.php'; ?>
                 </div>
               </div>

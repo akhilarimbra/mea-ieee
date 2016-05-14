@@ -1,4 +1,4 @@
-<div class="row footer-img">
+<div class="row footer-img hidden-sm-down">
   <div class="col-lg-12">
     <div class="container-fluid">
       <div class="col-lg-2">

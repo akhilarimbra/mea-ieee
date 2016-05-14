@@ -26,21 +26,19 @@
                   </tr>
                 </thead>
                 <tbody>
-                    <tr>
                         <?php  
                           $sql = "SELECT * FROM `event` ORDER BY date DESC";
                           $result = $conn->query($sql);
                           if ($result->num_rows > 0) {
                               while($row = $result->fetch_assoc()) {
-                                echo "<td>".$row['id']."</td>";
+                                echo "<tr><td>".$row['id']."</td>";
                                 echo "<td>".$row['name']."</td>";
                                 echo "<td>".$row['date']."</td>";
-                                echo "<td><a href='/dashboard/event-delete/".$row['id']."'>Delete</a></td>";
+                                echo "<td><a href='/dashboard/event-delete/".$row['id']."'>Delete</a></td></tr>";
                               }
                           }
                           $conn->close();
                         ?>
-                    </tr>
                 </tbody>
             </table>
             </div>

@@ -9,7 +9,6 @@
                 echo ". ";
               }
           }
-          $conn->close();
         ?>
     </marquee>
 </div>

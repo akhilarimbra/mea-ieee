@@ -5,7 +5,7 @@
       <h2 class='article-title'><?php echo substr($sub_title, 0 , -2); ?></h2>
     </div>
     <div class='col-md-6'>
-      <div class='ui breadcrumb'>
+      <div class='ui breadcrumb hidden-sm-down'>
         <a class='section' href='/'>Home</a>
         <div class='divider'> / </div>
         <div class='active section'>Gallery</div>
@@ -24,7 +24,7 @@
   <div class='row'>
     <div class='col-lg-12'>
         <?php  
-          $sql = "SELECT `name`, `type`, `title` FROM `image` WHERE type = 'Gallery'";
+          $sql = "SELECT * FROM `image` WHERE type='Gallery'";
           $result = $conn->query($sql);
           if ($result->num_rows > 0) {
               // output data of each row
@@ -33,10 +33,10 @@
               while($row = $result->fetch_assoc()) {
                 echo "<a href='/public/images/uploads/".$row['name']."' title='".$row['title']."' data-dialog>
 ";
-                echo "<img class='col-lg-3' width='100%' src='/public/images/uploads/".$row['name']."' alt='".$row['title']."'>";
+                echo "<img class='col-lg-2' width='100%' src='/public/images/uploads/".$row['name']."' alt='".$row['title']."'>";
                 echo "</a>";
                 $count++;
-                if($count == 4) {
+                if($count == 6) {
                   echo "</div><br>";
                   echo "<div class='row' id='links'>";
                   $count = 0;
@@ -45,7 +45,6 @@
               }
               echo "</div><br>";
           }
-          $conn->close();
         ?>
     </div>
   </div>
